@@ -28,8 +28,11 @@ function handleDisconnect() {
         }
     });
 }
-  
-handleDisconnect();
+
+setInterval(function () {
+    handleDisconnect();
+}, 60000);
+
 
 
 module.exports = mysqlConnection;
