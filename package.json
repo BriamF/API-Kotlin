@@ -4,7 +4,7 @@
   "description": "API utilizando MySQL como base de datos y consumiendola con una aplicación móvil (Kotlin).",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node ."
   },
   "keywords": [
     "API",
