@@ -30,8 +30,8 @@ function handleDisconnect() {
 }
 
 setInterval(function () {
-    handleDisconnect();
-}, 60000);
+    handleDisconnect(); 
+}, 5000);
 
 
 
