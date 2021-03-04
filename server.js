@@ -13,6 +13,11 @@ app.use(express.urlencoded({extended: false})) // Permite trabajar con Formulari
 app.use(morgan('dev'));
 
 // --------- Routes ---------
+/*Main Route */
+app.get('/', (request,response) => {
+    response.send('Welcome to my API (CRUD Students) - Briam Flores');
+});
+
 app.use(require('./routes/students'));
 
 // --------- Static files ---------
