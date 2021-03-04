@@ -1,11 +1,13 @@
 const mysql = require('mysql');
 
 const mysqlConnection = mysql.createConnection({
-    hots: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'school'
+    hots: 'us-cdbr-east-03.cleardb.com',
+    user: 'bee8020b1a1e24',
+    password: '686316dc',
+    database: 'heroku_079683f81f34309'
 });
+
+//bee8020b1a1e24:686316dc@us-cdbr-east-03.cleardb.com/heroku_079683f81f34309
 
 mysqlConnection.connect(function(e){
     if(e){
